@@ -1,11 +1,11 @@
-About ecs-logging
-=================
+About ecs-logging-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ecs-logging-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/elastic/ecs-logging-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ecs-logging-feedstock/blob/main/LICENSE.txt)
 
 Summary: Logging formatters for ECS (Elastic Common Schema) in Python
 

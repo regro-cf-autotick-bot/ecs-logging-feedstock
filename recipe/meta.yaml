@@ -1,13 +1,13 @@
 {% set name = "ecs-logging" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ecs-logging-{{ version }}.tar.gz
-  sha256: d4b791f044e8b96a4707edd4156a35fbe0e593c27ba5f05bae6b007cfab7622c
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 222cc158d4331157d128bc903629010f7724eab8ba4b642efbffd0cb482f4cde
 
 build:
   noarch: python
